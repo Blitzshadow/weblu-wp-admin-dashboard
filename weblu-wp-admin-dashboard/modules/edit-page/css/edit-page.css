@@ -1,0 +1,41 @@
+body {
+    background-color: #f9fafb; /* Light background for modern look */
+    font-family: 'Arial', sans-serif; /* Clean font for readability */
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between grid items */
+}
+
+.dashboard-card {
+    background-color: #ffffff; /* White card background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 15px; /* Inner padding */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.card-icon {
+    font-size: 24px; /* Icon size */
+    color: #4a5568; /* Darker color for icons */
+    margin-bottom: 10px; /* Space below icon */
+}
+
+.card-title {
+    font-size: 18px; /* Title font size */
+    font-weight: bold; /* Bold title */
+    color: #2d3748; /* Darker text color */
+}
+
+.card-content {
+    font-size: 14px; /* Content font size */
+    color: #4a5568; /* Darker text color for content */
+}

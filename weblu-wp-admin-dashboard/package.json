@@ -1,0 +1,22 @@
+{
+  "name": "weblu-wp-admin-dashboard",
+  "version": "1.0.0",
+  "description": "A modern and lightweight WordPress admin dashboard for WPaaS clients.",
+  "main": "weblu-wp-admin-dashboard.php",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "lint": "eslint assets/js/**/*.js"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "eslint": "^7.32.0"
+  },
+  "author": "Your Name",
+  "license": "GPL-2.0-or-later"
+}

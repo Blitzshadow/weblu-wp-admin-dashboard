@@ -1,0 +1,34 @@
+# Translating the plugin for WordPress
+
+msgid "Weblu WP Admin Dashboard"
+msgstr ""
+
+msgid "Edit Page"
+msgstr ""
+
+msgid "Templates and Themes"
+msgstr ""
+
+msgid "Connect Domain"
+msgstr ""
+
+msgid "E-commerce (WooCommerce)"
+msgstr ""
+
+msgid "Site Statistics"
+msgstr ""
+
+msgid "Marketing and SEO"
+msgstr ""
+
+msgid "Subscription and Payments"
+msgstr ""
+
+msgid "Support and Help"
+msgstr ""
+
+msgid "System Notifications"
+msgstr ""
+
+msgid "Marketplace / Add-ons"
+msgstr ""
