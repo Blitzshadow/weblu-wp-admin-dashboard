@@ -25,15 +25,15 @@ function weblu_dashboard_main() {
 function weblu_load_dashboard_modules() {
     // Tutaj można dodać logikę do ładowania poszczególnych modułów
     // Przykład:
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-edit-page.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-themes.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-domain.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-woocommerce.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-stats.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-marketing.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-billing.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-support.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-notifications.php';
-    include_once WE_BLU_PATH . 'includes/admin/modules/module-marketplace.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-edit-page.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-themes.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-domain.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-woocommerce.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-stats.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-marketing.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-billing.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-support.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-notifications.php';
+    include_once WEBLU_PLUGIN_DIR . 'includes/admin/modules/module-marketplace.php';
 }
 ?>

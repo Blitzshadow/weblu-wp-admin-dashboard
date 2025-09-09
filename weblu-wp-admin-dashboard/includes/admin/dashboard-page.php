@@ -34,7 +34,7 @@ function weblu_load_dashboard_modules() {
 
     foreach ($modules as $module) {
         // Wczytaj odpowiedni moduł
-        include_once WE_BLU_PLUGIN_DIR . "includes/admin/modules/module-{$module}.php";
+        include_once WEBLU_PLUGIN_DIR . "includes/admin/modules/module-{$module}.php";
     }
 }
 
